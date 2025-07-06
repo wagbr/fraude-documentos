@@ -14,7 +14,7 @@ A transformação digital trouxe agilidade e praticidade para o mundo jurídico,
 As fraudes documentais digitais ocorrem em diversas camadas, e este projeto foi construído para desmascará-las, **camada por camada**:
 
 > Exemplos comuns de fraude:
-
+>
 > * **Assinaturas digitais inválidas ou ausentes** disfarçadas em PDFs visualmente perfeitos.
 > * **Documentos escaneados com colagens** ou manipulações visuais sutis (copy-move).
 > * **Arquivos PDF com metadados ou estruturas que indicam alterações posteriores** não visíveis no conteúdo.
