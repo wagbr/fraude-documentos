@@ -7,6 +7,55 @@
 > textual de documentos PDF/DOCX.
 
 ---
+__Introdução__
+
+A transformação digital trouxe agilidade e praticidade para o mundo jurídico, contábil, educacional e administrativo. No entanto, também abriu novas portas para fraudes cada vez mais sofisticadas em documentos eletrônicos. Se antes falsificações exigiam habilidades gráficas e impressoras especializadas, hoje basta um editor de PDF, uma cópia escaneada ou uma assinatura digital mal utilizada para produzir documentos aparentemente legítimos — mas falsos.
+
+As fraudes documentais digitais ocorrem em diversas camadas, e este projeto foi construído para desmascará-las, **camada por camada**:
+
+> Exemplos comuns de fraude:
+
+* **Assinaturas digitais inválidas ou ausentes** disfarçadas em PDFs visualmente perfeitos.
+* **Documentos escaneados com colagens** ou manipulações visuais sutis (copy-move).
+* **Arquivos PDF com metadados ou estruturas que indicam alterações posteriores** não visíveis no conteúdo.
+* **Textos modificados com termos adicionados como “retificado”, “substitui-se”, “conforme anexo”, etc.**
+* **Arquivos Office com “control changes” ligados ou macros embutadas**, usados para reverter alterações.
+
+Esses ataques são difíceis de detectar a olho nu. Mas, com análise automatizada e cruzamento de evidências, é possível levantar indícios objetivos de fraude.
+
+---
+
+__Por que esse código detecta fraudes?__
+
+Este projeto utiliza um **pipeline forense digital modular**, com ferramentas avançadas de verificação e extração, que operam em quatro frentes:
+
+1. **Assinatura Digital e Hashes (Camada 1)**
+   Detecta presença, validade e integridade de assinaturas PAdES ou XML-DSig. Calcula e registra os hashes do arquivo para comparação e auditoria.
+
+2. **Estrutura Interna (Camada 2)**
+   Analisa se o documento sofreu alterações estruturais suspeitas, como múltiplos updates incrementais, uso de JavaScript, objetos órfãos, data de modificação posterior à criação, entre outros.
+
+3. **Análise Visual (Camada 3)**
+   Renderiza páginas como imagens e aplica detecção de manipulações por cópia e colagem (copy-move), além de identificar se as páginas vieram de dispositivos diferentes (PRNU) e avaliar a presença ou ausência de texto via OCR.
+
+4. **Análise Textual e Semântica (Camada 4)**
+   Extrai o conteúdo textual, identifica idiomas misturados, estilo divergente entre páginas (sinal de múltiplos autores) e termos-chave associados a edições ilegítimas.
+
+O sistema é projetado para funcionar com **evidência negativa e positiva**: ele não apenas denuncia anomalias, mas também confirma a normalidade de documentos autênticos.
+
+---
+
+__Resultado__
+
+Com isso, o código não só **detecta fraudes sofisticadas**, mas também oferece **transparência técnica** para subsidiar decisões administrativas, judiciais ou auditoriais. Ele pode ser usado por:
+
+* Auditores e órgãos de controle;
+* Servidores públicos;
+* Empresas que recebem documentos de terceiros;
+* Profissionais do Direito;
+* Peritos judiciais e extrajudiciais.
+
+---
 
 ## Visão Geral
 
