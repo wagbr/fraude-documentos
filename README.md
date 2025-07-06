@@ -15,11 +15,11 @@ As fraudes documentais digitais ocorrem em diversas camadas, e este projeto foi 
 
 > Exemplos comuns de fraude:
 
-* **Assinaturas digitais inválidas ou ausentes** disfarçadas em PDFs visualmente perfeitos.
-* **Documentos escaneados com colagens** ou manipulações visuais sutis (copy-move).
-* **Arquivos PDF com metadados ou estruturas que indicam alterações posteriores** não visíveis no conteúdo.
-* **Textos modificados com termos adicionados como “retificado”, “substitui-se”, “conforme anexo”, etc.**
-* **Arquivos Office com “control changes” ligados ou macros embutadas**, usados para reverter alterações.
+> * **Assinaturas digitais inválidas ou ausentes** disfarçadas em PDFs visualmente perfeitos.
+> * **Documentos escaneados com colagens** ou manipulações visuais sutis (copy-move).
+> * **Arquivos PDF com metadados ou estruturas que indicam alterações posteriores** não visíveis no conteúdo.
+> * **Textos modificados com termos adicionados como “retificado”, “substitui-se”, “conforme anexo”, etc.**
+> * **Arquivos Office com “control changes” ligados ou macros embutadas**, usados para reverter alterações.
 
 Esses ataques são difíceis de detectar a olho nu. Mas, com análise automatizada e cruzamento de evidências, é possível levantar indícios objetivos de fraude.
 
