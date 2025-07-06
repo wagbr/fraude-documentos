@@ -1,0 +1,26 @@
+# Evita PDFs, DOCX e arquivos sensíveis
+*.pdf
+*.PDF
+*.docx
+*.DOCX
+
+# Venv
+.venv/
+env/
+venv/
+
+# Dados temporários e cache
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.tmp
+*.json~ 
+.DS_Store
+
+# Arquivos de relatórios gerados
+*.verif.json
+*.visual.json
+*.estrutura.json
+*.texto.json
+*.full_report.json

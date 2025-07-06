@@ -1,0 +1,65 @@
+{
+  "preprocess": {
+    "path": "C:\\Users\\wagbr\\OneDrive\\Documentos\\Fraude em documentos\\PROCURACAO_WAGNER_23_06_2025_assinado.pdf",
+    "file_type": "PDF",
+    "sha256": "2922555c5f7946a9501ef4ed5f7202ce6bfec9a265d466166b1beaebd1aa7c95",
+    "sha512": "25e2002b27578f17fd7d5027abb64fb9a66d96b97bd2236472952c1d3db5ea8f013ba5a4b5df453423d1f5c90dccb0fe181f639143d707ace0dd4ccc7c7fd648",
+    "pages": 1,
+    "is_pdf_text": true,
+    "metadata": {
+      "Author": "maria custodia sermoud fonseca",
+      "CreationDate": "D:20250623172708-03'00'",
+      "Creator": "Microsoft® Word para Microsoft 365",
+      "ModDate": "D:20250623172708-03'00'",
+      "Producer": "Microsoft® Word para Microsoft 365"
+    },
+    "rendered_images": []
+  },
+  "assinatura_hash": {
+    "file_path": "C:\\Users\\wagbr\\OneDrive\\Documentos\\Fraude em documentos\\PROCURACAO_WAGNER_23_06_2025_assinado.pdf",
+    "sha256": "2922555c5f7946a9501ef4ed5f7202ce6bfec9a265d466166b1beaebd1aa7c95",
+    "sha512": "25e2002b27578f17fd7d5027abb64fb9a66d96b97bd2236472952c1d3db5ea8f013ba5a4b5df453423d1f5c90dccb0fe181f639143d707ace0dd4ccc7c7fd648",
+    "signatures": [
+      {
+        "signer_cn": null,
+        "signing_time": null,
+        "status": "UNVERIFIED_HYBRID",
+        "summary": "PDF em Hybrid-Reference: assinatura não verificada, mas presente"
+      }
+    ]
+  },
+  "estrutura": {
+    "path": "PROCURACAO_WAGNER_23_06_2025_assinado.pdf",
+    "file_type": "PDF",
+    "pdf_findings": {
+      "incremental_updates": true,
+      "eof_markers": 3,
+      "creation_date": "D:20250623172708-03'00'",
+      "mod_date": "D:20250623172708-03'00'",
+      "mod_after_creation": false,
+      "javascript_detected": false,
+      "suspicious_objects": []
+    },
+    "docx_findings": null
+  },
+  "visual": null,
+  "texto": {
+    "path": "PROCURACAO_WAGNER_23_06_2025_assinado.pdf",
+    "file_type": "PDF",
+    "languages": [
+      "pt"
+    ],
+    "suspicious_terms": [],
+    "style_inconsistent_pages": [],
+    "stylometry_by_page": {
+      "1": {
+        "avg_sentence_len": 48.833333333333336,
+        "avg_word_len": 6.978260869565218,
+        "lexical_diversity": 0.8913043478260869,
+        "readability_fk": 13.380000000000003
+      }
+    },
+    "errors": []
+  },
+  "verdict": "OK"
+}
